@@ -47,7 +47,7 @@ nav ul li {
     font-size: 20px;
 }
 header {
-    height: calc(100vh - 155px);
+    min-height: calc(100vh - 155px);
     background-color: #ea212d;
     display: flex;
     align-items: center;
@@ -77,6 +77,7 @@ header .cta {
     font-family: inherit;
     font-weight: bold;
     transition: .3s all;
+    text-align: center;
 }
 
 header .cta:hover {

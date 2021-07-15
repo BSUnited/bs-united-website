@@ -1,6 +1,5 @@
 window.onload = () => {
 
-    console.log('test');
     let start = new Date('03-27-2021');
     let today = new Date();
 
@@ -11,8 +10,8 @@ window.onload = () => {
         innerText: [0,delta],
         color: '#ffef2f',
         round: 1,
-        easing: 'easeInOutExpo',
-        duration: 5000
+        easing: 'cubicBezier(0.055, 0.370, 0.050, 1.055)',
+        duration: 4000
     });
 
 }
