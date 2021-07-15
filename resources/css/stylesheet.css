@@ -60,7 +60,7 @@ header>div {
 }
 
 header>div h1 {
-    font-size: clamp(2rem, -0.775rem + 10.333vw, 4.5rem);
+    font-size: clamp(2rem, -0.775rem + 10.333vw, 3rem);
     color: #fff;
     text-align: center;
 }
