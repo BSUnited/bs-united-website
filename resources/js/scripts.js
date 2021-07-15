@@ -3,7 +3,7 @@ window.onload = () => {
     let start = new Date('03-27-2021');
     let today = new Date();
 
-    let delta = (today.getTime() - start.getTime()) / (1000*60*60*24);
+    let delta = Math.ceil((today.getTime() - start.getTime()) / (1000*60*60*24));
 
     anime({
         targets: '#days',
