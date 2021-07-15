@@ -1,0 +1,122 @@
+:root {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+    padding: 0; 
+    margin: 0;
+    max-width: 100%;
+}
+
+
+nav {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #222;
+    padding: 15px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 15px -4px #1d1d1d;
+    position: relative;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    max-width: 125px;
+    justify-self: start;
+}
+
+nav h1 {
+    display: inline-block;
+    margin: 15px;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 15px;
+    font-size: 20px;
+}
+header {
+    height: calc(100vh - 155px);
+    background-color: #ea212d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header>div {
+    max-width: 80%;
+}
+
+header>div h1 {
+    font-size: 3.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+header .cta {
+    background-color: #fff;
+    border: none;
+    padding: 25px;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    color: #222;
+    text-decoration: none;
+    box-shadow: 0px 0px 15px -4px #1d1d1d;
+    font-family: inherit;
+    font-weight: bold;
+    transition: .3s all;
+}
+
+header .cta:hover {
+    box-shadow: 0px 0px 20px -4px #1d1d1d;
+    background-color: #ffef2f;
+    color: #000;
+}
+
+section {
+    padding: 45px;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/** reusable card components */
+
+.card-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-container .card {
+    padding: 45px;
+    box-shadow: 0px 0px 8px -2px #1d1d1d;
+    border-radius: 16px;
+    margin: 15px;
+    max-width: 300px;
+}
+
+.card-container .card .fa {
+    margin-bottom: 15px;
+    text-align: center;
+    display: block;
+    font-size: 5rem;
+}
+
