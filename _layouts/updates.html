@@ -16,7 +16,7 @@
             <div class="post">
                 <h1>{{post.title}}</h1>
                 <p>{{post.description}}</p>
-                <a class="link" href="{{post.url}}">Read More</a>
+                <a class="link" href="{{post.url | relative_url }}">Read More</a>
             </div>
         {% endfor %}
     </div>
