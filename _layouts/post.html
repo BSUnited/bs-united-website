@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{site.title}} | {{page.title}}</title>
+    {% include links.html %}
+</head>
+<body id="post">
+    {% include nav.html %}
+    <main>
+        <a class="back" href="/updates"><i class="fa fa-long-arrow-alt-left"></i> Back to Updates</a>
+        <h1>{{page.title}}</h1>
+
+        {{content}}
+    </main>
+</body>
+</html>
