@@ -153,9 +153,9 @@ body#blog {
 }
 
 .bloglist {
+    margin: 0 auto;
     margin-top: 50px;
-    max-width: 95%;
-    
+    max-width: 95%;  
 }
 
 .bloglist .post {
